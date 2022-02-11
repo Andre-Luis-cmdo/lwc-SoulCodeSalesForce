@@ -1,0 +1,32 @@
+<template>
+	<lightning-card>
+		<img src={soulCode}>
+
+		<div class="form">
+			<h1 class="principal">Ficha de Inscrição</h1>
+
+			<div class="slds-m-around_medium" if:true={mostrar}>
+				<h1 class="slds-text-heading_medium">Informação Principal</h1>
+				<p><b>Name Completo:		</b> {name} </p>
+				<p><b>Telefone:	</b> {tel} </p>
+				<p><b>CPF:		</b> {cpf} </p>
+				<p><b>Idade:		</b> {old} anos </p>
+			</div>
+
+			<div class="slds-m-around_medium" if:true={mostrar}>
+
+				<h1 class="slds-text-heading_medium">Outros dados</h1>
+
+				<p><b>Email:</b> {email}</p>
+				<p><b>Instagram</b> {insta}</p>
+				<p><b>Linkedin</b><a href={linkedin} target="_blanck"></a> linkedin</p>
+
+			</div>
+
+			<lightning-button variant="brand" label="Alterar Valor" title="Primary action" onclick={alterarValor}
+				class="slds-m-left_x-small"></lightning-button>
+
+
+		</div>
+	</lightning-card>
+</template>

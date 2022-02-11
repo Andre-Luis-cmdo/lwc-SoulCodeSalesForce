@@ -1,0 +1,32 @@
+h1{
+  color: darkslateblue;
+}
+
+img{
+  border-radius: 5px;
+  
+}
+.form{
+  text-align: center;
+  border: solid black 2px;
+  margin: 10px;
+}
+
+.principal{
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.slds-m-around_medium{
+  background-color: gold;
+  font-size: 15px;
+}
+.slds-text-heading_medium{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.dados{
+  background-color: blue;
+}

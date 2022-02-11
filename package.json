@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/andre-luis-cmdo.lwc-kzih4jbb-fork-kziqxgbb",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve V3KbedDGGtpRURAJn5tj --open"
+  }
+}
